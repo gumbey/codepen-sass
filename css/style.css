@@ -1,4 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   text-align: center;
   background-color: #e74c3c;
@@ -15,13 +20,12 @@
   width: 33.3%;
   float: left;
   position: relative;
-  /*margin:0 -4px -5px -2px;*/
   transition: all .2s ease;
 }
 
 .box p {
   color: #777;
-  font-family: Lato,"Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 300;
   position: absolute;
   font-size: 20px;
@@ -66,7 +70,7 @@
     background-color: inherit;
   }
   .box:nth-child(2n-1) {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: #ea6153;
   }
 }
 
@@ -342,7 +346,7 @@
 .loader3:after {
   content: "LOADING ...";
   color: #fff;
-  font-family: Lato,"Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 200;
   font-size: 16px;
   position: absolute;
@@ -358,7 +362,7 @@
 .loader3:before {
   content: "";
   position: absolute;
-  background-color: #fff;
+  background-color: #white;
   top: -5px;
   left: 0px;
   height: 30px;
@@ -440,7 +444,7 @@
 .loader4:after {
   content: "LOADING ...";
   color: #fff;
-  font-family: Lato,"Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 200;
   font-size: 16px;
   position: absolute;
@@ -504,7 +508,7 @@
 .loader5:after {
   content: "LOADING ...";
   color: #fff;
-  font-family: Lato,"Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 200;
   font-size: 16px;
   position: absolute;
@@ -776,7 +780,7 @@
   background-color: rgba(255, 255, 255, 0.2);
   border-width: 40px;
   border-style: double;
-  border-color: transparent  #fff;
+  border-color: transparent #fff;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
